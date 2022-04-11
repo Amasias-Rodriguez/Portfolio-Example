@@ -39,4 +39,30 @@
     background: #45567d;
 }
 
-/* background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); */
+/* SECTION 1 */
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+}
+
+.section1-text{
+    position: relative;
+    top: 15rem;
+}
+
+.section1-h1{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.section1-h4{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    color: #be3144;
+}
