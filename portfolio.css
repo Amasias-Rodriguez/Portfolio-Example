@@ -194,3 +194,66 @@ span{
     font-weight: 300;
     color: #f0f0f0;
 }
+
+
+@media (min-width: 900px){
+    .section1{
+        width: 100%;
+        height: 40vh;
+        background-color: #333;
+    }
+    .section1-h4{
+        font-size: 50px;
+        font-style: italic;
+        font-weight: 300;
+        text-align: center;
+        padding: 10px;
+        color: #be3144;
+    }
+
+    .sec2-btn{
+        left: 22rem;
+    }
+
+    .section3{
+        width: 100%;
+        height: 40vh;
+        background: #303841;
+        padding: 7rem 2rem 3rem 2rem;
+    }
+    
+    .sec3-h1{
+        font-size: 60px;
+        text-align: center;
+        padding: 15px 0;
+        color: #f0f0f0;
+    }
+    
+    .sec3-h4{
+        font-size: 25px;
+        font-weight: 300;
+        font-style: italic;
+        text-align: center;
+        padding: 18px 0;
+        color: #f0f0f0;
+    }
+    
+    .sec3-contact{
+       display: flex;
+    }
+    
+    .sec3-contact a{
+        font-size: 24px;
+        font-weight: 300;
+        padding: 4rem 5px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-decoration: none;
+        color: #f0f0f0;
+    }
+
+    .footer{
+        padding: 5rem 2rem;
+    }
+}
